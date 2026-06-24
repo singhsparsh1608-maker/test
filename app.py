@@ -16,7 +16,7 @@ st.set_page_config(
 # ==========================================
 
 df = pd.read_csv(
-    r'/Users/sparshsingh/Desktop/JOB/PROJECTS/RUSSIA UKRAIN WAR ANALYSIS/PYTHON/CREA_of_PYHTON_SQL_READY.csv'
+    r'data/CREA_of_PYHTON_SQL_READY.csv'
 )
 
 df["date"] = pd.to_datetime(df["date"])
